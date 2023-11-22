@@ -6,7 +6,7 @@ substitutions:
   rx_pin: GPIO3
 
 esphome:
-  name: ${name}
+  name: ${Soyosurce1}
   comment: ${device_description}
   project:
     name: "syssi.esphome-soyosource-gtn-virtual-meter"
@@ -20,8 +20,8 @@ external_components:
     refresh: 0s
 
 wifi:
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
+  ssid: FRITZ!Box 5590 FI
+  password: 72169412451947637591
 
 ota:
 
